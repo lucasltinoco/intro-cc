@@ -2,9 +2,7 @@
 using namespace std;
 int main()
 {
-  int number1;
-  int number2;
-  int number3;
+  int number1, number2, number3;
   cout << "Number1: ";
   cin >> number1;
   cout << endl;
@@ -17,7 +15,7 @@ int main()
 
   int sum = number1 + number2 + number3; 
   cout << "Sum: " << sum << endl;
-  int average = sum/3; 
+  float average = sum/3.0; 
   cout << "Average: " << average << endl;
   int product = number1 * number2 * number3; 
   cout << "Product: " << product << endl;
